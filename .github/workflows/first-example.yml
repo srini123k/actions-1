@@ -4,7 +4,7 @@ on: push
 
 jobs:
     first_job:
-        runs_on: ubantu-latest
+        runs-on: ubantu-latest
         steps:
         - name: Welcome message
           run: echo "My First GitHub Actions Job"
